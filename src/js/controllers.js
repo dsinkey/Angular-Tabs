@@ -14,8 +14,13 @@ angular.module('myApp.controllers', []).controller('AdvanceTabCtrl', function ($
 
   $scope.tabList = [
     {heading: 'Tab 1', content: '1.html'},
-    {heading: 'Tab 2', content: '2.html'}
+    {heading: 'Tab 2', content: '2.html'},
+    {heading: 'new_tab', content: ''}
   ];
+
+  $scope.add = function(){
+    $scope.tabList.splice($scope.tabList.length - 1, 0, {heading: 'Tab' + $scope.tabList.length, content: ''});
+  };
 
   $templateCache.put('1.html', '<h1>I am One</h1>');
   $templateCache.put('2.html', '<h1>I am Two</h1>');
