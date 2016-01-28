@@ -2,3 +2,9 @@ body {
     margin: 20px;
     font-family: sans-serif;
 }
+
+.close {
+    position: relative;
+    top: -8px;
+    right: -10px;
+}

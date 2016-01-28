@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('myApp', ['myApp.controllers', 'myApp.filters']);
+angular.module('myApp', ['ui.bootstrap','myApp.controllers']);
