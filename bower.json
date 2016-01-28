@@ -1,0 +1,30 @@
+{
+  "name": "AngularTabs",
+  "version": "0.1.0",
+  "homepage": "s://github.com/dsinkey/Angular-Tabs",
+  "authors": [
+    "Dustin Sinkey"
+  ],
+  "description": "AngularUI Tabs Example",
+  "main": "src/index.html",
+  "keywords": [
+    "angular",
+    "tabs"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.22",
+    "ng-grid": "~2.0.7",
+    "jquery": "~2.0.3",
+    "angular-mocks": "~1.2.22"
+  }
+}
